@@ -105,3 +105,16 @@ select * from contatos where nome like 'B%';
 
 select * from contatos where nome='Benzema';
 
+-- Modificando um registro específico da tabela 
+update contatos set fone='91234-8090' where id=4;
+update contatos set email='bia@gmail.com' where id=2;
+
+-- Alterando todos os dados do registro 
+update contatos set nome='Willian Gates', fone='32456-9000', email='bill@outlook.com' where id=1;
+
+-- Excluindo um registro da tabela
+delete from contatos where id=4;
+
+update contatos set nome='Flacko', fone='31243-75676', email='flacko@gmail.com' where id=6;
+
+delete from contatos where id=2;

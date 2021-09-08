@@ -52,4 +52,10 @@ values('Durex',77,5.25);
 
 select sum(valor*quantidade) as total from carrinho;
 
+select * from carrinho;
+
 select produto from carrinho order by produto asc;
+
+update carrinho set quantidade=144 where id=8;
+
+update carrinho set quantidade=49 where id=7;
